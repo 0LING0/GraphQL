@@ -8,5 +8,5 @@
   启动mongodb要使用管理员身份运行cmd,使用git会报错。
   先开一个cmd，进入mongodb\bin文件夹 mongod --dbpath f:\data\db
   再开一个cmd,进入mongodb文件夹，运行mongo.exe
-3.最后npm start 启动项目
+3.最后node start 启动项目
   即可~
