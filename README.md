@@ -3,7 +3,7 @@
 因为文章中有些命令没有更新到最新版，所以直接运行会报错，不过跟着作者的思路一步步来，解决一个个bug，对koa+mongodb+graphql有了一些初步的认识，感觉到了自己的进步。
 
 注意事项：
-1.koa搭建框架时如果使用es6语法，需要安装babel
+1.koa搭建框架时如果使用es6语法，需要安装babel，可以参照https://segmentfault.com/q/1010000006098673 第一个回答安装
 2.启动项目前要把mongodb数据库启动好，数据库的data/db 文件夹要放在根目录，不然会报错。
   启动mongodb要使用管理员身份运行cmd,使用git会报错。
   先开一个cmd，进入mongodb\bin文件夹 mongod --dbpath f:\data\db
